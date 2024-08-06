@@ -14,6 +14,7 @@
 - Defina `.env` define chave primaria e URL do Hardhat
 
 PROVIDER="URL do Hardhat"
+
 PRI_KEY='Chave privada de conta do Hardhat'
 
 ## Passos pra execução
