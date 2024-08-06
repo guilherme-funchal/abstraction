@@ -32,7 +32,7 @@ Este script implanta o contrato Paymaster, que cobre taxas de transação para S
 
 `npx hardhat run --network localhost ./scripts/deploy_Paymaster.js`
 
-### 4. Get Sender Address 
+### 4. Obter endereço do remetente
 Este script cria uma carteira Externally Owned Account (EOA). A carteira EOA é crítica porque assina as transações SimpleAccount na rede e fornece uma camada de controle e segurança para as operações do usuário. Além disso, este script determina o endereço de implantação do contrato SimpleAccount, que incorpora uma estrutura de conta fundamental para usuários dentro do protocolo ERC4337.
 
 `npx hardhat run --network localhost ./scripts/getSenderAddress.js`
@@ -57,7 +57,7 @@ A transação é patrocinada pelo Paymaster, que cobre as taxas de transação, 
 
 `npx hardhat run --network localhost ./scripts/sendUserOp.js`
 
-### 7. Enviar operação do usuário exemplo 2 ERC20
+### 8. Enviar operação do usuário exemplo 2 ERC20
 Este script executa uma operação do usuário interagindo com os seguintes contratos: EntryPoint, Paymaster, SimpleAccount e ExampleContract. Ele prepara e envia uma transação para o contrato EntryPoint, que normalmente envolve uma chamada de função como safeMint do ExampleContract, usando o SimpleAccount do usuário.
 A transação é patrocinada pelo Paymaster, que cobre as taxas de transação, usando os fundos depositados anteriormente.
 
@@ -68,7 +68,7 @@ A transação é patrocinada pelo Paymaster, que cobre as taxas de transação, 
 
 `npx hardhat run --network mumbai ./scripts/test.js`
 
-### 8.  Script teste 2
+### 9.  Script teste 2
  Este script verifica os resultados da operação anterior. Ele consulta o ExampleContract para o tokenId mais recente e o saldo de token do SimpleAccount, verificando o sucesso da operação de cunhagem.
 
 `npx hardhat run --network mumbai ./scripts/test2.js`
