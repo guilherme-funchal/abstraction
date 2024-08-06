@@ -1,0 +1,47 @@
+{
+    "name": "erc4337-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cmatan10/erc4337-example.git"
+    },
+    "keywords": [],
+    "author": "Matan Cohen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cmatan10/erc4337-example/issues"
+    },
+    "homepage": "https://github.com/cmatan10/erc4337-example#readme",
+    "dependencies": {
+        "@account-abstraction/contracts": "^0.6.0",
+        "@openzeppelin/contracts": "^4.2.0",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.13.2",
+        "fs": "^0.0.1-security",
+        "hardhat": "^2.19.4",
+        "path": "^0.12.7",
+        "web3": "^1.8.0"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+        "@nomicfoundation/hardhat-ethers": "^3.0.6",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@nomicfoundation/hardhat-verify": "^2.0.9",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "@types/chai": "^4.3.17",
+        "@types/mocha": "^10.0.7",
+        "chai": "^4.5.0",
+        "hardhat-gas-reporter": "^1.0.10",
+        "solidity-coverage": "^0.8.12",
+        "ts-node": "^10.9.2",
+        "typechain": "^8.3.2",
+        "typescript": "^5.5.4"
+    }
+}
